@@ -45,7 +45,7 @@ i{
     background-color: whitesmoke;
     min-height: 100px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 300px) {
     * {
         width: 100%;
     }
