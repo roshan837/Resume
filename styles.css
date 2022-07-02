@@ -21,7 +21,7 @@ img{
 }
 .top{
     background-color: cyan;
-    width: 700px;
+    width: 100%;
     height: fit-content;
     display: flex;
     flex-flow: row;
@@ -32,7 +32,7 @@ img{
 }
 .links{
     height: 20px;
-    width: 700px;
+    width: 100%;
     background-color: lightblue;
 }
 i{
@@ -40,13 +40,8 @@ i{
 }
 .container{
     display: flex;
-    width: 700px;
+    width: 100%;
     flex-direction: column;
     background-color: whitesmoke;
     min-height: 100px;
 }
-@media only screen and (max-width: 300px) {
-    * {
-        width: 100%;
-    }
-  }
